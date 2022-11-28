@@ -1,4 +1,6 @@
 package se.umu.cs.apjava;
+import se.umu.cs.emli.DoubleLinkedListIterator;
+import java.util.Iterator;
 
 /**
  * Implementation of a double linked list
@@ -6,10 +8,9 @@ package se.umu.cs.apjava;
  * @author Johan Eliasson johane@cs.umu.se
  * @version 1
  */
-public class DoubleLinkedList<T> {
+public class DoubleLinkedList<T> implements Iterable<T> {
 
     private final Cell head;
-
     /**
      * Creates an empty DoubleLinkedList
      */
@@ -96,6 +97,16 @@ public class DoubleLinkedList<T> {
         cell.prevel.nextel = cell.nextel;
         cell.nextel.prevel = cell.prevel;
         return cell.nextel;
+    }
+
+    /**
+     * Returns an iterator for the class.
+     * Enables the class to be iterated using foreach-loop.
+     * @return iterator to iterate the class with.
+     */
+    @Override
+    public Iterator<T> iterator() {
+        return new DoubleLinkedListIterator<>(this);
     }
 
     public interface Position {
