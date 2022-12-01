@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="463b0d05-d575-4365-b10e-6b2fdd70fa8b" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/se/umu/cs/emli/DoubleLinkedListIterator.java" afterDir="false" />
+    <list default="true" id="463b0d05-d575-4365-b10e-6b2fdd70fa8b" name="Changes" comment="Iterator implemented.">
+      <change afterPath="$PROJECT_DIR$/src/se/umu/cs/emli/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/se/umu/cs/emli/View.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/umu/cs/apjava/DoubleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/umu/cs/apjava/DoubleLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/se/umu/cs/emli/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/umu/cs/emli/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,12 +31,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Iterator" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="se.umu.cs.emli.Main" />
@@ -61,7 +61,13 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1669642613411</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="Iterator implemented.">
+      <created>1669648507942</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1669648507942</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -77,6 +83,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Iterator implemented." />
+    <option name="LAST_COMMIT_MESSAGE" value="Iterator implemented." />
   </component>
 </project>
