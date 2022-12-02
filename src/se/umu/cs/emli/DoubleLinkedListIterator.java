@@ -10,23 +10,23 @@ import java.util.NoSuchElementException;
  */
 public class DoubleLinkedListIterator<T> implements Iterator<T> {
     private final DoubleLinkedList<T> list;
-    private DoubleLinkedList.Position currentPosition;
+    private DoubleLinkedList.Position nextPosition;
 
     public DoubleLinkedListIterator(DoubleLinkedList<T> list){
         this.list = list;
-        this.currentPosition = list.first();
+        this.nextPosition = list.first();
     }
 
     @Override
     public boolean hasNext() {
-        return currentPosition != list.end();
+        return nextPosition != list.end();
     }
 
     @Override
     public T next() {
         if (!hasNext()) throw new NoSuchElementException();
-        T value = list.inspect(currentPosition);
-        currentPosition = list.next(currentPosition);
+        T value = list.inspect(nextPosition);
+        nextPosition = list.next(nextPosition);
         return value;
     }
 }

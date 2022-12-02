@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="463b0d05-d575-4365-b10e-6b2fdd70fa8b" name="Changes" comment="View and controller implemented for testprogram.">
+    <list default="true" id="463b0d05-d575-4365-b10e-6b2fdd70fa8b" name="Changes" comment="Changed iterating method to implement iterator.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/umu/cs/emli/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/umu/cs/emli/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/se/umu/cs/emli/DoubleLinkedListIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/umu/cs/emli/DoubleLinkedListIterator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +71,13 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1669907648234</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="Changed iterating method to implement iterator.">
+      <created>1669985159355</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1669985159355</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,6 +95,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Iterator implemented." />
     <MESSAGE value="View and controller implemented for testprogram." />
-    <option name="LAST_COMMIT_MESSAGE" value="View and controller implemented for testprogram." />
+    <MESSAGE value="Changed iterating method to implement iterator." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed iterating method to implement iterator." />
   </component>
 </project>
