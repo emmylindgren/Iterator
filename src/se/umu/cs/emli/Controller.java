@@ -30,14 +30,21 @@ public class Controller {
             view.clearInput();
         }
     }
+
+    /**
+     * Iterates over the list of strings using the DoubleLinkedListIterator-class.
+     */
     private void iterateList(){
         view.clearOutPut();
         view.lockButtons();
         int position = 0;
-        for (String string:list) {
-            view.updateOutput("Position " + position +": "+ string + System.lineSeparator());
+        DoubleLinkedListIterator<String> iterator = new DoubleLinkedListIterator<>(list);
+
+        while(iterator.hasNext()){
+            view.updateOutput("Position " + position +": "+ iterator.next() + System.lineSeparator());
             position++;
         }
+
         list = new DoubleLinkedList<>();
         view.unlockButtons();
     }

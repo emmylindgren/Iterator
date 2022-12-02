@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="463b0d05-d575-4365-b10e-6b2fdd70fa8b" name="Changes" comment="Iterator implemented.">
-      <change afterPath="$PROJECT_DIR$/src/se/umu/cs/emli/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/se/umu/cs/emli/View.java" afterDir="false" />
+    <list default="true" id="463b0d05-d575-4365-b10e-6b2fdd70fa8b" name="Changes" comment="View and controller implemented for testprogram.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/umu/cs/emli/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/umu/cs/emli/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/se/umu/cs/emli/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/umu/cs/emli/Controller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +65,13 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1669648507942</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="View and controller implemented for testprogram.">
+      <created>1669907648234</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1669907648234</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -84,6 +88,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Iterator implemented." />
-    <option name="LAST_COMMIT_MESSAGE" value="Iterator implemented." />
+    <MESSAGE value="View and controller implemented for testprogram." />
+    <option name="LAST_COMMIT_MESSAGE" value="View and controller implemented for testprogram." />
   </component>
 </project>
